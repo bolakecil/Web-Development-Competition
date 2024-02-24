@@ -45,6 +45,10 @@ span {
 
 /* Onload animation */
 
+.map-section {
+  margin: 0 2rem;
+}
+
 section {
   opacity: 0;
   transition: all 0.5s ease-in-out;
@@ -89,7 +93,11 @@ section {
   align-items: start;
   flex-direction: row;
   padding-top: 2rem;
+<<<<<<< HEAD
   gap: 3rem;
+=======
+  gap: 1rem;
+>>>>>>> 08622b9df64933b850e4b6acbec405360ba91027
   flex-wrap: wrap;
 }
 
@@ -114,16 +122,24 @@ section {
   filter: sepia(100%) saturate(1000%) hue-rotate(45deg);
 }
 
+<<<<<<< HEAD
 /* slider */
 
 .logos {
   overflow: hidden;
   padding: 15px 0;
+=======
+.logos {
+  margin-top: 3rem;
+  overflow: hidden;
+  padding: 30px 0;
+>>>>>>> 08622b9df64933b850e4b6acbec405360ba91027
   white-space: nowrap;
 }
 
 .logos-slide {
   display: inline-block;
+<<<<<<< HEAD
 }
 
 .logos-slide.right {
@@ -132,10 +148,14 @@ section {
 
 .logos-slide.left {
   animation: slideLeft 30s linear infinite;
+=======
+  animation: 35s slide infinite linear;
+>>>>>>> 08622b9df64933b850e4b6acbec405360ba91027
 }
 
 .logos-slide img {
   height: 150px;
+<<<<<<< HEAD
   margin: 0 10px;
   border-radius: 5%;
 }
@@ -143,12 +163,22 @@ section {
 @keyframes slideLeft {
   from {
     transform: translateX(100vw);
+=======
+  margin: 0 20px;
+  border-radius: 5%;
+}
+
+@keyframes slide {
+  from {
+    transform: translateX(0);
+>>>>>>> 08622b9df64933b850e4b6acbec405360ba91027
   }
   to {
     transform: translateX(-100%);
   }
 }
 
+<<<<<<< HEAD
 @keyframes slideRight {
   from {
     transform: translateX(-100%);
@@ -158,6 +188,8 @@ section {
   }
 }
 
+=======
+>>>>>>> 08622b9df64933b850e4b6acbec405360ba91027
 @media (max-width: 768px) {
   .about-section {
     flex-direction: column;
