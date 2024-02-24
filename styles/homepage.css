@@ -4,15 +4,21 @@
 
 body {
   margin: 0;
-  padding:0;
+  padding: 0;
   box-sizing: border-box;
   overflow-x: hidden;
   height: 2000px;
-  background-color: var(--primary); 
+  background-color: var(--primary);
   font-family: Koulen, sans-serif;
 }
 
-h1, h2, h3, h4, a, p, span {
+h1,
+h2,
+h3,
+h4,
+a,
+p,
+span {
   color: white;
   margin: 0;
 }
@@ -39,6 +45,10 @@ h1, h2, h3, h4, a, p, span {
 .map-section h1 {
   font-size: clamp(2rem, 5vw, 4rem);
   text-align: center;
+}
+
+.map-section {
+  margin: 0 2rem;
 }
 
 section {
@@ -70,7 +80,7 @@ section {
   justify-content: center;
   align-items: start;
   flex-direction: row;
-  padding: 2rem 5rem;
+  padding-top: 2rem;
   gap: 1rem;
   flex-wrap: wrap;
 }
@@ -95,8 +105,39 @@ section {
   filter: sepia(100%) saturate(1000%) hue-rotate(45deg);
 }
 
+.logos {
+  margin-top: 3rem;
+  overflow: hidden;
+  padding: 30px 0;
+  white-space: nowrap;
+}
+
+.logos-slide {
+  display: inline-block;
+  animation: 35s slide infinite linear;
+}
+
+.logos-slide img {
+  height: 150px;
+  margin: 0 20px;
+  border-radius: 5%;
+}
+
+@keyframes slide {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
 @media (max-width: 768px) {
   .about-section {
+    flex-direction: column;
+  }
+
+  .map-section h1 {
     flex-direction: column;
   }
 }

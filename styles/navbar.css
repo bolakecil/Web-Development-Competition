@@ -5,6 +5,7 @@
   top: 0;
   position: fixed;
   transition: opacity 0.5s ease, margin-top 0.5s ease; 
+  background-color: black;
 }
   
 .navbar ul {
