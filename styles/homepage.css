@@ -1,0 +1,102 @@
+:root {
+  --primary: #262826;
+}
+
+body {
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  height: 2000px;
+  background-color: var(--primary); 
+  font-family: Koulen, sans-serif;
+}
+
+h1, h2, h3, h4, a, p, span {
+  color: white;
+  margin: 0;
+}
+
+.parallax-container {
+  position: relative;
+  object-fit: cover;
+  overflow: hidden;
+  width: 100vw;
+  height: 100vh;
+  transition: 600ms;
+  transition-timing-function: ease-in-out;
+}
+
+.parallax-layer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+
+.map-section h1 {
+  font-size: clamp(2rem, 5vw, 4rem);
+  text-align: center;
+}
+
+section {
+  opacity: 0;
+  transition: all 0.5s ease-in-out;
+  transform: translateY(10%);
+}
+
+.visible {
+  opacity: 100%;
+  transform: translateY(0%);
+}
+
+::-webkit-scrollbar {
+  width: 0.5rem;
+}
+
+::-webkit-scrollbar-track {
+  background: black;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 0.5rem;
+}
+
+.about-section {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: row;
+  padding: 2rem 5rem;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.about-section p {
+  flex: 1.5;
+  font-size: clamp(1rem, 2vw, 1.5rem);
+}
+
+.map-container {
+  flex: 1;
+  border: 4px solid white;
+  border-radius: 8px;
+  padding: 8px;
+}
+
+.map-img {
+  width: 100%;
+  transition: filter 0.5s ease-in-out;
+}
+.map-img:hover {
+  filter: sepia(100%) saturate(1000%) hue-rotate(45deg);
+}
+
+@media (max-width: 768px) {
+  .about-section {
+    flex-direction: column;
+  }
+}
