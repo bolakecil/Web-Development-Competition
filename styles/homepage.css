@@ -4,15 +4,21 @@
 
 body {
   margin: 0;
-  padding:0;
+  padding: 0;
   box-sizing: border-box;
   overflow-x: hidden;
   height: 2000px;
-  background-color: var(--primary); 
+  background-color: var(--primary);
   font-family: Koulen, sans-serif;
 }
 
-h1, h2, h3, h4, a, p, span {
+h1,
+h2,
+h3,
+h4,
+a,
+p,
+span {
   color: white;
   margin: 0;
 }
@@ -36,21 +42,21 @@ h1, h2, h3, h4, a, p, span {
   pointer-events: none;
 }
 
-.map-section h1 {
-  font-size: clamp(2rem, 5vw, 4rem);
-  text-align: center;
-}
+
+/* Onload animation */
 
 section {
   opacity: 0;
   transition: all 0.5s ease-in-out;
-  transform: translateY(10%);
+  transform: translateY(20%);
 }
 
 .visible {
   opacity: 100%;
   transform: translateY(0%);
 }
+
+/* scrollbar */
 
 ::-webkit-scrollbar {
   width: 0.5rem;
@@ -65,18 +71,31 @@ section {
   border-radius: 0.5rem;
 }
 
+/* map section */
+
+.map-section h1 {
+  font-size: clamp(2rem, 5vw, 4rem);
+  text-align: center;
+}
+
+.map-section {
+  margin-inline: 2rem;
+  margin-block: 3rem;
+}
+
 .about-section {
   display: flex;
   justify-content: center;
   align-items: start;
   flex-direction: row;
-  padding: 2rem 5rem;
-  gap: 1rem;
+  padding-top: 2rem;
+  gap: 3rem;
   flex-wrap: wrap;
 }
 
 .about-section p {
   flex: 1.5;
+  text-align: justify;
   font-size: clamp(1rem, 2vw, 1.5rem);
 }
 
@@ -95,8 +114,56 @@ section {
   filter: sepia(100%) saturate(1000%) hue-rotate(45deg);
 }
 
+/* slider */
+
+.logos {
+  overflow: hidden;
+  padding: 15px 0;
+  white-space: nowrap;
+}
+
+.logos-slide {
+  display: inline-block;
+}
+
+.logos-slide.right {
+  animation: slideRight 30s linear infinite;
+}
+
+.logos-slide.left {
+  animation: slideLeft 30s linear infinite;
+}
+
+.logos-slide img {
+  height: 150px;
+  margin: 0 10px;
+  border-radius: 5%;
+}
+
+@keyframes slideLeft {
+  from {
+    transform: translateX(100vw);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+@keyframes slideRight {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(100vw);
+  }
+}
+
 @media (max-width: 768px) {
   .about-section {
+    flex-direction: column;
+  }
+
+  .map-section h1 {
     flex-direction: column;
   }
 }
