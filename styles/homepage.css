@@ -162,6 +162,60 @@ section {
   }
 }
 
+/* diversity */
+
+.diversity-section {
+  padding-inline: 4%;
+}
+
+.title-text {
+  position: relative;
+  font-size: clamp(2rem, 5vw, 4rem);
+}
+/* 
+.title-text::before {
+  content: "";
+  position: absolute;
+  display: flex;
+  flex: 1;
+  height: 6px;
+  width: calc(100% - 40vw);
+  top: 45%;
+  right: 0;
+  background-color: white;
+} */
+
+.diversity-container {
+  display: flex;
+  gap: 2rem;
+  flex-direction: column;
+  margin-block: 1.5rem;
+}
+
+.diversity-top, .diversity-bottom {
+  display: flex;
+  align-items: flex-start;
+  gap: 2rem;
+}
+
+.diversity-img {
+  flex: 1;
+}
+
+.diversity-text, .diversity-text-2 {
+  flex: 1;
+  font-size: clamp(1rem, 2vw, 1.5rem);
+}
+
+.diversity-img-2 {
+  flex: 1.5;
+}
+
+.diversity-img > img, .diversity-img-2 > img {
+  width: 100%;
+  height: 375px;
+}
+
 @media (max-width: 768px) {
   .about-section {
     flex-direction: column;

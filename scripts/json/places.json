@@ -1,0 +1,103 @@
+{
+    "places": [
+        {
+            "name": "Waerebo Village",
+            "description": "Waerebo is a unique traditional Mang",
+            "video": "./assets/places_to_go/places/waerebo_village_video.mp4",
+            "image_1": "./assets/places_to_go/places/waerebo_village_1.jpg",
+            "image_2": "./assets/places_to_go/places/waerebo_village_2.jpg",
+            "image_3": "./assets/places_to_go/places/waerebo_village_3.jpg",
+            "activities": [
+                {
+                    "name": "Have fun with locals",
+                    "description": "Have fun with locals in Waerebo Village",
+                    "image_url": "./assets/places_to_go/places/activities/waerebo_activity_1.webp"
+                },
+                {
+                    "name": "Trekking",
+                    "description": "Trekking to Waerebo Village",
+                    "image_url": "./assets/places_to_go/places/activities/waerebo_activity_2.jpg"
+                },
+                {
+                    "name": "Immersion in Local Culture",
+                    "description": "Explore the local culture of Waerebo Village",
+                    "image_url": "./assets/places_to_go/places/activities/waerebo_activity_3.webp"
+                }
+            ],
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3943.180228930487!2d120.2816113746281!3d-8.769107889560631!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2db36459b2e80e9d%3A0xce74c6b87dcb8a88!2sWaerebo%20Village!5e0!3m2!1sen!2sid!4v1708873479596!5m2!1sen!2sid"
+        },
+        {
+            "name": "Pink Beach",
+            "description": "Pink Beach is one of the most beautiful beaches in Indonesia",
+            "video": "./assets/places_to_go/places/pink_beach_video.mp4",
+            "image_1": "./assets/places_to_go/places/pink_beach_1.jpg",
+            "image_2": "./assets/places_to_go/places/pink_beach_2.jpg",
+            "image_3": "./assets/places_to_go/places/pink_beach_3.jpg",
+            "activities": [
+                {
+                    "name": "Sunbathing",
+                    "description": "Sunbathing in Pink Beach",
+                    "image_url": "./assets/places_to_go/places/activities/pink_beach_activity_1.webp"
+                },
+                {
+                    "name": "Snorkeling",
+                    "description": "Snorkeling in Pink Beach",
+                    "image_url": "./assets/places_to_go/places/activities/pink_beach_activity_2.jpg"
+                },
+                {
+                    "name": "Swimming",
+                    "description": "Swimming in Pink Beach",
+                    "image_url": "./assets/places_to_go/places/activities/pink_beach_activity_3.jpg"
+                }
+            ],
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3944.9440334988803!2d119.5148775762998!3d-8.601372215264119!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2db4567cf6bd1967%3A0x9f2eb4aca51c5fd0!2sPink%20Beach!5e0!3m2!1sen!2sid!4v1708874621649!5m2!1sen!2sid"
+        },
+        {
+            "name": "Pulau Padar",
+            "description": "Pulau Padar is one of the most beautiful islands in Indonesia",
+            "video": "./assets/places_to_go/places/pulau_padar_video.mp4",
+            "image_1": "./assets/places_to_go/places/pulau_padar_1.jpg",
+            "image_2": "./assets/places_to_go/places/pulau_padar_2.jpg",
+            "image_3": "./assets/places_to_go/places/pulau_padar_3.jpg",
+            "activities": [
+                {
+                    "name": "Boat Tours",
+                    "description": "Boat Tours in Pulau Padar",
+                    "image_url": "./assets/places_to_go/places/activities/pulau_padar_activity_1.jpg"
+                },
+                {
+                    "name": "Photography",
+                    "description": "Photography in Pulau Padar",
+                    "image_url": "./assets/places_to_go/places/activities/pulau_padar_activity_2.jpg"
+                },
+                {
+                    "name": "Hiking",
+                    "description": "Hiking in Pulau Padar",
+                    "image_url": "./assets/places_to_go/places/activities/pulau_padar_activity_3.jpg"
+                }
+            ],
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63108.869237650455!2d119.52852650820076!3d-8.662579990319102!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2db4f84ff6cd01ab%3A0xf7e6fd33b692a898!2sPadar%20Island!5e0!3m2!1sen!2sid!4v1708929506531!5m2!1sen!2sid"
+        },
+        {
+            "name": "Danau Kelimut",
+            "description": "Danau Kelimut is a volcanic lake with three different colors",
+            "video": "./assets/places_to_go/places/danau_kelimut_video.mp4",
+            "image_1": "./assets/places_to_go/places/danau_kelimut_1.jpg",
+            "image_2": "./assets/places_to_go/places/danau_kelimut_2.jpg",
+            "image_3": "./assets/places_to_go/places/danau_kelimut_3.jpg",
+            "activities": [
+                {
+                    "name": "Photography",
+                    "description": "Photography in Danau kelimut",
+                    "image_url": "./assets/places_to_go/places/activities/danau_kelimut_activity_1.jpg"
+                },
+                {
+                    "name": "Sunrise Watching",
+                    "description": "Sightseeing in Danau kelimut",
+                    "image_url": "./assets/places_to_go/places/activities/danau_kelimut_activity_3.jpg"
+                }
+            ],
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15772.849063972737!2d121.80386694186114!3d-8.766089603384946!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dad42cbad3700fd%3A0xd134f42033d607ed!2sDanau%20Kelimut!5e0!3m2!1sen!2sid!4v1708929941254!5m2!1sen!2sid"
+        }
+    ]
+}
