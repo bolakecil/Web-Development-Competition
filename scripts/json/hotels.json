@@ -1,0 +1,28 @@
+{
+    "hotels": [
+        {
+            "name": "Plataran Komodo Resort",
+            "location": "Waecicu Beach, Labuan Bajo",
+            "image": "./assets/places_to_go/hotels/hotel_1.jpg",
+            "link": "https://www.tripadvisor.co.id/Hotel_Review-g1777483-d6218124-Reviews-Plataran_Komodo_Resort_Spa-Labuan_Bajo_Flores_East_Nusa_Tenggara.html"
+        },
+        {
+            "name": "NIHI Sumba",
+            "location": "Desa Hobawawi",
+            "image": "./assets/places_to_go/hotels/hotel_2.jpg",
+            "link": "https://www.tripadvisor.co.id/Hotel_Review-g297731-d486594-Reviews-NIHI_Sumba-Sumba_East_Nusa_Tenggara.html"
+        },
+        {
+            "name": "Maduna Resort",
+            "location": "Jl. Raya Nemberala",
+            "image": "./assets/places_to_go/hotels/hotel_3.jpg",
+            "link": "https://www.tripadvisor.co.id/Hotel_Review-g2301837-d16675840-Reviews-Manduna_Resort-Rote_Island_West_Timor_East_Nusa_Tenggara.html?spAttributionToken=MjMyOTg0OTg"
+        },
+        {
+            "name": "Sea World Beach Resort",
+            "location": "Jl. Nairoa KM 13 Waiara, Maumere",
+            "image": "./assets/places_to_go/hotels/hotel_4.jpg",
+            "link": "https://www.tripadvisor.co.id/Hotel_Review-g676343-d675624-Reviews-Sea_World_Club_Beach_Resort_Dive_Center-Maumere_Flores_East_Nusa_Tenggara.html#/media/675624/86737910:p/?albumid=101&type=0&category=101"
+        }
+    ]
+}
