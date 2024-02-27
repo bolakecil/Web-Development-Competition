@@ -1,0 +1,34 @@
+:root {
+    --primary: #262826;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    height: 2000px;
+    background-color: var(--primary);
+    font-family: Koulen, sans-serif;
+  }
+
+  .landing-page{
+    text-align: center;
+    width: 100vw;
+    height: 60vh;
+    padding-top: 10rem;
+    background-color: white;
+  }
+
+  .title-container{
+    margin: 0 5rem 0 5rem;
+    background-color: aqua;
+  }
+
+  .title{
+    font-size: 3rem;
+  }
+
+  .subtitle{
+    font-size: 2rem;
+  }
