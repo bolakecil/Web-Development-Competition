@@ -15,7 +15,7 @@
   .landing-page{
     text-align: center;
     width: 100vw;
-    height: 60vh;
+    height: 80vh;
     padding-top: 10rem;
     background-color: white;
   }
@@ -31,4 +31,55 @@
 
   .subtitle{
     font-size: 2rem;
+  }
+
+  .main-container{
+    margin: 7rem 5rem 5rem 5rem;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .left-container{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+  }
+
+  .right-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 45%;
+    justify-content: space-between;
+    gap: 1rem;
+  }
+
+  .left-container .long-tile{
+    height: 120%;
+  }
+
+  .short-tile{
+    object-fit: cover;
+    width: 100%;
+    background-color: aquamarine;
+  }
+
+  .long-tile{
+    object-fit: cover;
+    width: 100%;
+    background-color: blueviolet;
+  }
+
+  @media (max-width: 768px){
+    .main-container{
+      flex-direction: column;
+      gap: 2rem;
+    }
+
+    .left-container, .right-container{
+      width: 100%;
+    }
   }
