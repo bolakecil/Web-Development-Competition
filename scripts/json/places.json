@@ -102,6 +102,60 @@
                 }
             ],
             "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15772.849063972737!2d121.80386694186114!3d-8.766089603384946!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dad42cbad3700fd%3A0xd134f42033d607ed!2sDanau%20Kelimut!5e0!3m2!1sen!2sid!4v1708929941254!5m2!1sen!2sid"
+        },
+        {
+            "name": "Pantai Nemberala",
+            "description": "Pantai Nemberala is a beautiful beach with a great wave for surfing",
+            "video": "./assets/places_to_go/places/pantai_nemberala_video.mp4",
+            "image": "./assets/places_to_go/places/pantai_nemberala.jpg",
+            "image_1": "./assets/places_to_go/places/pantai_nemberala_1.jpg",
+            "image_2": "./assets/places_to_go/places/pantai_nemberala_2.jpg",
+            "image_3": "./assets/places_to_go/places/pantai_nemberala_3.jpg",
+            "activities": [
+                {
+                    "name": "Surfing",
+                    "description": "Nemberala is known for its surf breaks, particularly the famous T-Land (Boa) surf break. ",
+                    "image_url": "./assets/places_to_go/places/activities/pantai_nemberala_activity_1.jpg"
+                },
+                {
+                    "name": "Explore the Beach",
+                    "description": "Rote Island itself has other interesting places to explore. You might find traditional villages, local markets, and unique cultural experiences.",
+                    "image_url": "./assets/places_to_go/places/activities/pantai_nemberala_activity_2.jpg"
+                },
+                {
+                    "name": "Sunset Watching",
+                    "description": "Pantai Nemberala offers beautiful sunsets. Find a good spot on the beach to watch the sun dip below the horizon.",
+                    "image_url": "./assets/places_to_go/places/activities/pantai_nemberala_activity_3.jpg"
+                }
+            ],
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15772.849063972737!2d121.80386694186114!3d-8.766089603384946!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dad42cbad3700fd%3A0xd134f42033d607ed!2sDanau%20Kelimut!5e0!3m2!1sen!2sid!4v1708929941254!5m2!1sen!2sid"
+        },
+        {
+            "name": "Bukit Wairinding",
+            "description": "Bukit Wairinding is a beautiful hill with a great view of the ocean",
+            "video": "./assets/places_to_go/places/bukit_warinding_video.mp4",
+            "image": "./assets/places_to_go/places/bukit_warinding.jpg",
+            "image_1": "./assets/places_to_go/places/bukit_warinding_1.jpg",
+            "image_2": "./assets/places_to_go/places/bukit_warinding_2.jpg",
+            "image_3": "./assets/places_to_go/places/bukit_warinding_3.jpg",
+            "activities": [
+                {
+                    "name": "Scenic Views",
+                    "description": "Bukit Wairinding is known for its panoramic views. Take a hike to the top of the hill, and you'll be rewarded with stunning views of the surrounding landscapes",
+                    "image_url": "./assets/places_to_go/places/activities/bukit_warinding_activity_1.jpg"
+                },
+                {
+                    "name": "Horseback Riding",
+                    "description": "Explore the breathtaking landscapes of Bukit Wairinding from a unique perspective with a horseback riding adventure",
+                    "image_url": "./assets/places_to_go/places/activities/bukit_warinding_activity_2.jpg"
+                },
+                {
+                    "name": "Hiking & Nature Walks",
+                    "description": "Enjoy the natural surroundings by going for a hike or a nature walk. The hill and its surroundings may have walking trails that allow you to explore the area.",
+                    "image_url": "./assets/places_to_go/places/activities/bukit_warinding_activity_3.jpg"
+                }
+            ],
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15772.849063972737!2d121.80386694186114!3d-8.766089603384946!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dad42cbad3700fd%3A0xd134f42033d607ed!2sDanau%20Kelimut!5e0!3m2!1sen!2sid!4v1708929941254!5m2!1sen!2sid"
         }
     ]
 }
