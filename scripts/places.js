@@ -19,6 +19,22 @@ const resortObserver = new IntersectionObserver(entries => {
     })
 })
 
+document.querySelectorAll('.accordion-button').forEach(button => {
+    button.addEventListener('click', () => {
+        const accordionContent = button.nextElementSibling;
+
+        button.classList.toggle('active');
+
+        if (button.classList.contains('active')) {
+            accordionContent.style.display = 'block';
+            button.querySelector('.icon').textContent = '-';
+        } else {
+            accordionContent.style.display = 'none';
+            button.querySelector('.icon').textContent = '+';
+        }
+    });
+});
+
 async function fetchPlaces() {
     try {
         const response = await fetch('scripts/json/places.json')

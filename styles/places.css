@@ -118,6 +118,7 @@ section > h1 {
 }
 
 .resort-section {
+  margin-top: 3.5rem;
   padding-inline: clamp(2rem, 12vw, 10rem);
   padding-inline: 6%;
 }
@@ -135,7 +136,12 @@ section > h1 {
   align-items: center;
 }
 
+.resort-title h1{
+  order: 3;
+}
+
 .line{
+  order: 2;
   width: 40%;
   height: 0.6rem;
   background-color: white;
@@ -232,6 +238,87 @@ section > h1 {
   }
 }
 
+.accordion{
+  padding-inline: 6%;
+}
+
+.accordion .line{
+  width: 35%;
+}
+
+.accordion-title{
+  display: flex;
+  margin-top: 4rem;
+  font-size: clamp(1.8rem, 5vw, 1.5rem);
+  justify-content: space-between;
+  align-items: center;
+}
+
+.accordion-content {
+  display: none;
+  overflow: hidden;
+  margin-top: 0.5rem;
+  transition: max-height 0.2s ease-out;
+}
+
+.accordion-content p{
+  font-size: 1.2rem;
+}
+
+.accordion-button {
+  margin-top: 0.8rem;
+  font-family: Koulen;
+  cursor: pointer;
+  padding: 10px;
+  font-size: 1.5rem;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: background-color 0.2s;
+  position: relative;
+}
+
+.icon{
+  position: absolute;
+  right: 20px; /* Adjust as needed */
+  transition: transform 0.2s ease;
+}
+
+/* Optional: Style for active class */
+.accordion-button.active,
+.accordion-button:hover {
+  background-color: #ccc;
+}
+
+.accordion-button.active .icon {
+  content: "-"; /* This technique uses pseudo-elements for demonstration */
+}
+
+.footer {
+  margin-top: 3rem;
+  padding-inline: 4%;
+  color: azure;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  margin-top: 12px;
+  display: flex;
+  justify-content: center;
+  gap: 2%;
+}
+
+.logo img {
+  width: 32px;
+}
+
+.closure {
+  display: flex;
+  justify-content: center;
+}
+
 /* Scrollbar */
 ::-webkit-scrollbar {
   width: 0.5rem;
@@ -247,8 +334,24 @@ section > h1 {
 }
 
 @media (max-width: 1200px){
-  .resort-title{
+  .resort-title, .accordion-title{
     flex-direction: column;
+  }
+
+  .resort-title h1{
+    order: 1;
+  }
+
+  .accordion .line{
+    width: 100%;
+  }
+
+  .accordion-title{
+    margin-bottom: 1rem;
+  }
+
+  .resort-container{
+    margin-bottom: 3.5rem;
   }
 
   .line{
@@ -268,5 +371,9 @@ section > h1 {
 
   .resort-container{
     flex-direction: column;
+  }
+
+  .accordion-title{
+    margin-top: 1rem;
   }
 }

@@ -179,7 +179,7 @@ section {
 .bx {
   width: 47.5%;
   border-radius: 8px;
-  height: 1rem;
+  height: 0.6rem;
   background-color: white;
   order: 1;
 }
@@ -267,7 +267,7 @@ section {
 .bx2 {
   width: 47.5%;
   border-radius: 8px;
-  height: 1rem;
+  height: 0.6rem;
   background-color: white;
 }
 
@@ -326,7 +326,7 @@ section {
 .bx3 {
   width: 25%;
   border-radius: 8px;
-  height: 1rem;
+  height: 0.6rem;
   background-color: white;
 }
 
