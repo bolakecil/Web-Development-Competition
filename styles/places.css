@@ -122,6 +122,7 @@ section > h1 {
 .resort-container {
   display: flex;
   gap: 1.5rem;
+  flex-wrap: wrap;
 }
 
 .resort-title{
@@ -172,7 +173,6 @@ section > h1 {
   justify-content: center;
   align-items: center;
   transform: translateY(100%);
-  cursor: pointer;
 }
 
 .resort-img-container:hover .resort-overlay {
@@ -185,6 +185,23 @@ section > h1 {
 
 .view-on {
   font-size: 1.5rem;
+  padding-block: -5px;
+  position: relative;
+}
+
+.view-on:after {
+  content: '';
+  position: absolute;
+  background-color: white;
+  height: 2px;
+  width: 0;
+  left: 0;
+  bottom: -1px;
+  transition: all 0.3s ease;
+}
+
+.view-on:hover:after {
+  width: 100%;
 }
 
 .resort-location {
