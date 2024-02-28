@@ -124,6 +124,20 @@ section > h1 {
   gap: 1.5rem;
 }
 
+.resort-title{
+  display: flex;
+  font-size: clamp(2rem, 5vw, 2.5rem);
+  justify-content: space-between;
+  align-items: center;
+}
+
+.line{
+  width: 40%;
+  height: 0.6rem;
+  background-color: white;
+  border-radius: 8px;
+}
+
 .resort {
   opacity: 0;
   flex: 1;
@@ -210,6 +224,16 @@ section > h1 {
   border-radius: 0.5rem;
 }
 
+@media (max-width: 1200px){
+  .resort-title{
+    flex-direction: column;
+  }
+
+  .line{
+    width: 100%;
+  }
+}
+
 @media (max-width: 768px){
   .main-container{
     flex-direction: column;
@@ -218,5 +242,9 @@ section > h1 {
 
   .left-container, .right-container{
     width: 100%;
+  }
+
+  .resort-container{
+    flex-direction: column;
   }
 }
