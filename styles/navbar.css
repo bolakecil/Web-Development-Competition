@@ -38,8 +38,10 @@
   display: block;
   float: left;
   font-size: 2em;
-  padding: 1% 2.5%;
+  margin: 1% 2.5%;
+  margin-left: 6%;
   text-decoration: none;
+  color: red;
 }
   
   /* menu */
@@ -48,6 +50,7 @@
     clear: both;
     max-height: 0;
     transition: max-height 0.4s ease-out;
+    margin-left: 4%;
   }
   
   /* menu icon */
@@ -58,13 +61,15 @@
     align-items: center;
     justify-content: center;
     float: right;
+    margin-top: 4px;
     padding: 28px 20px;
     position: relative;
     user-select: none;
+    margin-right: 3%;
   }
   
   .navbar .menu-icon .navicon {
-    background: #333;
+    background: white;
     display: block;
     height: 2px;
     position: relative;
@@ -73,7 +78,7 @@
   
   .navbar .menu-icon .navicon:before,
   .navbar .menu-icon .navicon:after {
-    background: #333;
+    background: white;
     content: "";
     display: block;
     height: 100%;
@@ -130,9 +135,14 @@
     clear: none;
     float: right;
     max-height: none;
+    margin-right: 3.25%;
   }
   .navbar .menu-icon {
     display: none;
+  }
+
+  .navbar .logo{
+    margin-left: 6%;
   }
 }
   

@@ -44,10 +44,6 @@ span {
 
 /* Onload animation */
 
-.map-section {
-  margin: 0 2rem;
-}
-
 section {
   opacity: 0;
   transition: all 0.5s ease-in-out;
@@ -82,7 +78,7 @@ section {
 }
 
 .map-section {
-  margin-inline: 2rem;
+  padding-inline: 6%;
   margin-block: 3rem;
 }
 
@@ -164,7 +160,7 @@ section {
 /* diversity */
 
 .diversity-section {
-  padding-inline: 4%;
+  padding-inline: 6%;
 }
 
 .title-text {
@@ -236,7 +232,7 @@ section {
 
 /* news section */
 .news-section {
-  padding-inline: 4%;
+  padding-inline: 6%;
   flex-wrap: wrap;
 }
 
@@ -310,11 +306,11 @@ section {
 
 .part-of-section {
   margin-top: 24px;
-  /* padding-inline: 4%; */
+
 }
 
 .title-text3 {
-  padding-inline: 4%;
+  padding-inline: 6%;
   display: flex;
   position: relative;
   font-size: clamp(2rem, 5vw, 4rem);
@@ -344,25 +340,25 @@ section {
   image-rendering: auto;
 }
 
-.footer{
+.footer {
   padding-inline: 4%;
   color: azure;
   justify-content: center;
   align-items: center;
 }
 
-.logo{
+.logo {
   margin-top: 12px;
   display: flex;
   justify-content: center;
   gap: 2%;
 }
 
-.logo img{
+.logo img {
   width: 32px;
 }
 
-.closure{
+.closure {
   display: flex;
   justify-content: center;
 }
