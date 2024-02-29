@@ -48,7 +48,11 @@ function initDetails() {
 }
 
 function initPlace() {
-    return JSON.parse(localStorage.getItem("Place"))
+    result = JSON.parse(localStorage.getItem("Place"))
+    if (result == null) {
+        window.location.href = "places.html"
+    }
+    return result
 }
 
 document.addEventListener("DOMContentLoaded", () => {
