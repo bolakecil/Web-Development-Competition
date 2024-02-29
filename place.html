@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Place</title>
+  <link rel="stylesheet" href="styles/navbar.css">
+  <link rel="stylesheet" href="styles/place.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Koulen&display=swap"
+    rel="stylesheet"
+  />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap"
+    rel="stylesheet"
+  />
+</head>
+<body>
+  <nav class="navbar">
+    <a href="homepage.html" class="logo">Logo</a>
+    <input class="menu-btn" type="checkbox" id="menu-btn" />
+    <label class="menu-icon" for="menu-btn">
+      <span class="navicon"></span>
+    </label>
+    <ul class="menu">
+      <li><a href="#">Places to go</a></li>
+      <li><a href="#about">Local Cuisines</a></li>
+      <li><a href="#careers">History</a></li>
+    </ul>
+  </nav>
+  <div class="video-container">
+    <video autoplay muted loop src="assets/places_to_go/places/pulau_padar_video.mp4" class="video-bg"></video>
+    <div class="overlay"></div>
+    <div class="title-container">
+      <h1 class="title">Place Name</h1>
+    </div>
+  </div>
+  <section class="images-section">
+    <h1 class="title">Place Name</h1>
+    <br>
+    <div class="carousel-section">
+      <div class="active-container">
+        <img src="assets/places_to_go/places/pantai_nemberala_2.jpg" class="displayed-image">
+      </div>
+      <div class="images-container">
+        <div class="image-container">
+          <img src="assets/places_to_go/places/pantai_nemberala_1.jpg" class="side-image active">
+        </div>
+        <div class="image-container">
+          <img src="assets/places_to_go/places/pantai_nemberala_2.jpg" class="side-image">
+        </div>
+        <div class="image-container">
+          <img src="assets/places_to_go/places/pantai_nemberala_3.jpg" class="side-image">
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="description-section">
+    <h1>Description</h1>
+    <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta corrupti nisi autem adipisci ipsum error iste, pariatur, culpa voluptatem quis necessitatibus nesciunt dignissimos quo in dolorum sapiente fugiat doloremque reiciendis. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis inventore cumque laboriosam asperiores ipsam quas voluptates similique fugit repellat labore ea rem quasi explicabo, dolores beatae nam. Ratione, aliquam molestiae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo maiores culpa, perspiciatis rerum reiciendis nesciunt, adipisci molestias ea at, voluptas inventore molestiae ipsam facilis blanditiis dolor sint minus totam quia. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus officiis vitae consectetur dicta repellat? Quisquam excepturi fugit voluptates ipsam rerum alias, sit magni saepe vero. Provident nulla sit ea harum?</p>
+  </section>
+  <section class="activities-section">
+    <h1>Things to do</h1>
+    <div class="activities-container">
+      <div class="activity-container">
+        <img src="assets/places_to_go/places/activities/pulau_padar_activity_1.jpg" class="activity-image">
+        <div class="activity-overlay">
+          <p class="activity-name">Scenic Views</p>
+          <!-- <p>Bukit Wairinding is known for its panoramic views. Take a hike to the top of the hill, and you'll be rewarded with stunning views of the surrounding landscapes</p> -->
+        </div>
+      </div>
+      <div class="activity-container">
+        <img src="assets/places_to_go/places/activities/pulau_padar_activity_2.jpg" class="activity-image">
+        <div class="activity-overlay">
+          <p class="activity-name">Hiking & Nature Walks</p>
+          <!-- <p>Enjoy the natural surroundings by going for a hike or a nature walk. The hill and its surroundings may have walking trails that allow you to explore the area.</p> -->
+        </div>
+      </div>
+      <div class="activity-container">
+        <img src="assets/places_to_go/places/activities/pulau_padar_activity_3.jpg" class="activity-image">
+        <div class="activity-overlay">
+          <p class="activity-name">Horseback Riding</p>
+          <!-- <p>Explore the breathtaking landscapes of Bukit Wairinding from a unique perspective with a horseback riding adventure</p> -->
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="map-section">
+    <h1>LOCATION</h1>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3917.9689699864643!2d122.82003487466737!3d-10.889962721441577!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2c50d958ff439ebb%3A0xfd64cfbb565d9f6c!2sNemberala%20Beach!5e0!3m2!1sen!2sid!4v1709212804999!5m2!1sen!2sid" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </section>
+<script src="scripts/place.js"></script>
+</body>
+</html>

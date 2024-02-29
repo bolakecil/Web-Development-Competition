@@ -74,11 +74,17 @@ function insertPlaces() {
 
     places.forEach((place, index) => {
         if (index % 2 == 0) {
-            leftContainer.innerHTML += `<img src="${place.image}" class="place-img" style="animation-delay: calc(${index + 1} * ${baseDelay}ms)">`
+            leftContainer.innerHTML += `<img src="${place.image}" class="place-img" id="${place.id}" style="animation-delay: calc(${(index / 2) + 1} * ${baseDelay}ms)">`
         }
         else {
-            rightContainer.innerHTML += `<img src="${place.image}" class="place-img" style="animation-delay: calc(${index + 1} * ${baseDelay}ms)">`
+            rightContainer.innerHTML += `<img src="${place.image}" class="place-img" id="${place.id}" style="animation-delay: calc(${(index / 2) + 1} * ${baseDelay}ms)">`
         }
+    })
+    document.querySelectorAll('.place-img').forEach(img => {
+        img.addEventListener('click', () => {
+            localStorage.setItem('Place', JSON.stringify(places.find(place => place.id == img.id)))
+            window.location.href = 'place.html'
+        })
     })
     const leftImg = leftContainer.querySelectorAll('img')
     const rightImg = rightContainer.querySelectorAll('img')

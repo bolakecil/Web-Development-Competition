@@ -1,8 +1,9 @@
 {
     "places": [
         {
+            "id": 1,
             "name": "Waerebo Village",
-            "description": "Waerebo is a unique traditional Mang",
+            "description": "Nestled amidst the mountains of East Nusa Tenggara, Indonesia, lies the captivating village of Waerebo, often referred to as the village above the clouds. This remote haven, perched at around 1,100 meters above sea level, offers a glimpse into a world untouched by modern life.Waerebo's unique charm lies in its traditional houses, the Mbaru Niang. These distinctive cone-shaped structures, crafted from natural materials like wood, bamboo, and palm leaves, stand tall and proud, symbolizing the rich heritage of the Manggarai people who call this place home. Each of the five levels within a Mbaru Niang serves a specific purpose, reflecting the community's deep respect for tradition and their connection to nature.",
             "video": "./assets/places_to_go/places/waerebo_village_video.mp4",
             "image": "./assets/places_to_go/places/waerebo_village.jpg",
             "image_1": "./assets/places_to_go/places/waerebo_village_1.jpg",
@@ -28,8 +29,9 @@
             "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3943.180228930487!2d120.2816113746281!3d-8.769107889560631!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2db36459b2e80e9d%3A0xce74c6b87dcb8a88!2sWaerebo%20Village!5e0!3m2!1sen!2sid!4v1708873479596!5m2!1sen!2sid"
         },
         {
+            "id": 2,
             "name": "Pink Beach",
-            "description": "Pink Beach is one of the most beautiful beaches in Indonesia",
+            "description": "The Pink Beach, also known as Pantai Merah (Red Beach) in the local tongue, is a stunning natural wonder located on Komodo Island, East Nusa Tenggara, Indonesia. It's one of only seven pink beaches found around the world, making it a truly unique destination. The beach's captivating pink hue comes from microscopic animals called Foraminifera, which have red pigments in their shells. These tiny creatures, along with fragments of red coral, mix with the white sand, creating the beach's soft pink color, especially visible along the shoreline.",
             "video": "./assets/places_to_go/places/pink_beach_video.mp4",
             "image": "./assets/places_to_go/places/pink_beach.jpg",
             "image_1": "./assets/places_to_go/places/pink_beach_1.jpg",
@@ -55,8 +57,9 @@
             "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3944.9440334988803!2d119.5148775762998!3d-8.601372215264119!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2db4567cf6bd1967%3A0x9f2eb4aca51c5fd0!2sPink%20Beach!5e0!3m2!1sen!2sid!4v1708874621649!5m2!1sen!2sid"
         },
         {
+            "id": 3,
             "name": "Pulau Padar",
-            "description": "Pulau Padar is one of the most beautiful islands in Indonesia",
+            "description": "A jewel in the Komodo Archipelago, Pulau Padar, stuns with its dramatic landscapes and untouched beauty. This third-largest island within the Komodo National Park boasts volcanic origins, shaping its towering hills and deep coves that contrast vividly with the turquoise waters. Unlike Komodo and Rinca, it lacks the Komodo dragon, but its unique topography makes it a haven for nature lovers and photographers. Pulau Padar's pristine shores offer diverse experiences. The captivating Pink Beach, awash in blush-colored sand thanks to microscopic animals and red coral fragments, beckons with its unique hue. Long Beach, a white-sand haven, stretches along the eastern coast, perfect for swimming, sunbathing, and leisurely walks. Hidden away in a secluded cove, the aptly named Hidden Beach offers a tranquil escape to soak in the island's serenity.",
             "video": "./assets/places_to_go/places/pulau_padar_video.mp4",
             "image": "./assets/places_to_go/places/pulau_padar.jpg",
             "image_1": "./assets/places_to_go/places/pulau_padar_1.jpg",
@@ -82,8 +85,9 @@
             "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63108.869237650455!2d119.52852650820076!3d-8.662579990319102!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2db4f84ff6cd01ab%3A0xf7e6fd33b692a898!2sPadar%20Island!5e0!3m2!1sen!2sid!4v1708929506531!5m2!1sen!2sid"
         },
         {
+            "id": 4,
             "name": "Danau Kelimut",
-            "description": "Danau Kelimut is a volcanic lake with three different colors",
+            "description": "Danau Kelimut is a breathtaking crater lake nestled in the lush landscapes of Indonesia. Situated on the island of Sumatra, this enchanting body of water is surrounded by dense forests and hills, creating a mesmerizing panorama that captivates the senses. The lake's serene blue waters reflect the verdant foliage, creating a harmonious blend of colors that seems almost surreal. The air is filled with a sense of tranquility as the gentle breeze rustles through the leaves, making Danau Kelimut a haven for nature lovers seeking an escape from the hustle and bustle of everyday life. Surrounded by a rim of volcanic peaks, the lake is a result of ancient volcanic activity, and its unique formation adds an air of mystique to the landscape. The fertile soil around the lake supports a diverse ecosystem, with a variety of flora and fauna thriving in this pristine environment. As the sun sets behind the rugged peaks, the sky transforms into a canvas of warm hues, casting a magical glow over Danau Kelimut.",
             "video": "./assets/places_to_go/places/danau_kelimut_video.mp4",
             "image": "./assets/places_to_go/places/danau_kelimut_1.jpg",
             "image_1": "./assets/places_to_go/places/danau_kelimut_1.jpg",
@@ -93,19 +97,25 @@
                 {
                     "name": "Photography",
                     "description": "Photography in Danau kelimut",
-                    "image_url": "./assets/places_to_go/places/activities/danau_kelimut_activity_1.jpg"
+                    "image_url": "./assets/places_to_go/places/activities/danau_kelimutu_activity_1.jpg"
                 },
                 {
                     "name": "Sunrise Watching",
                     "description": "Sightseeing in Danau kelimut",
-                    "image_url": "./assets/places_to_go/places/activities/danau_kelimut_activity_3.jpg"
+                    "image_url": "./assets/places_to_go/places/activities/danau_kelimutu_activity_2.jpg"
+                },
+                {
+                    "name": "Hike to the summit",
+                    "description": "Hike to the summit in Danau kelimut",
+                    "image_url": "./assets/places_to_go/places/activities/danau_kelimutu_activity_3.jpg"
                 }
             ],
             "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15772.849063972737!2d121.80386694186114!3d-8.766089603384946!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dad42cbad3700fd%3A0xd134f42033d607ed!2sDanau%20Kelimut!5e0!3m2!1sen!2sid!4v1708929941254!5m2!1sen!2sid"
         },
         {
+            "id": 5,
             "name": "Pantai Nemberala",
-            "description": "Pantai Nemberala is a beautiful beach with a great wave for surfing",
+            "description": "Pantai Nemberala, a coastal gem on the island of Rote in Indonesia, unfolds as a paradise for those seeking sun-kissed shores and azure waters. This pristine beach boasts powdery white sands that stretch as far as the eye can see, creating a picturesque contrast with the deep blue of the Indian Ocean. Nemberala is a haven for surf enthusiasts, as the waves here are known to be both powerful and consistent, attracting surfers from around the globe to experience the thrill of the rolling swells. The coastal landscape is adorned with swaying palm trees that provide pockets of shade, inviting visitors to unwind and savor the tranquil ambiance. The rhythmic sounds of the waves crashing against the shore create a soothing symphony, echoing the natural beauty of Pantai Nemberala. As the sun sets over the horizon, the sky transforms into a canvas of vibrant colors, casting a warm glow over the beach. The laid-back atmosphere and untouched beauty of Pantai Nemberala make it an idyllic destination for those seeking a tropical escape, where the harmony of sea, sand, and sky converges to create an unforgettable coastal experience.",
             "video": "./assets/places_to_go/places/pantai_nemberala_video.mp4",
             "image": "./assets/places_to_go/places/pantai_nemberala.jpg",
             "image_1": "./assets/places_to_go/places/pantai_nemberala_1.jpg",
@@ -128,11 +138,12 @@
                     "image_url": "./assets/places_to_go/places/activities/pantai_nemberala_activity_3.jpg"
                 }
             ],
-            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15772.849063972737!2d121.80386694186114!3d-8.766089603384946!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dad42cbad3700fd%3A0xd134f42033d607ed!2sDanau%20Kelimut!5e0!3m2!1sen!2sid!4v1708929941254!5m2!1sen!2sid"
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3917.9689699864643!2d122.82003487466737!3d-10.889962721441577!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2c50d958ff439ebb%3A0xfd64cfbb565d9f6c!2sNemberala%20Beach!5e0!3m2!1sen!2sid!4v1709212804999!5m2!1sen!2sid"
         },
         {
+            "id": 6,
             "name": "Bukit Wairinding",
-            "description": "Bukit Wairinding is a beautiful hill with a great view of the ocean",
+            "description": "Bukit Wairinding rises as a majestic peak in Indonesia, offering a panoramic spectacle for those who venture to its heights. This elevated vantage point, situated on the island of Sumba, provides an awe-inspiring view of the surrounding landscapes. As visitors ascend, they are greeted by rolling hills, verdant valleys, and an expanse of untouched wilderness that stretches to the horizon.The journey to the summit of Bukit Wairinding unveils a trek through lush terrain, where the air is crisp and the flora is abundant. The ascent is rewarded with a breathtaking panorama, as the landscape unfolds beneath like a living tapestry. From the elevated perch, the undulating hills showcase a patchwork of vibrant greens, creating a mesmerizing contrast against the blue sky. As the sun begins its descent, casting a warm glow over the landscape, Bukit Wairinding transforms into a serene retreat. n",
             "video": "./assets/places_to_go/places/bukit_warinding_video.mp4",
             "image": "./assets/places_to_go/places/bukit_warinding.jpg",
             "image_1": "./assets/places_to_go/places/bukit_warinding_1.jpg",
