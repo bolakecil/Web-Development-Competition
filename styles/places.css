@@ -50,7 +50,8 @@ h1, a, p {
 }
 
 .title-container h1 {
-  font-size: 4em;
+  text-wrap: nowrap;
+  font-size: clamp(2.25rem, 6vw, 4rem);
   margin: 0;
 }
 
@@ -361,7 +362,7 @@ section > h1 {
 }
 
 @media (max-width: 768px){
-  .main-container{
+  .places-section{
     flex-direction: column;
     gap: 2rem;
   }

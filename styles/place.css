@@ -50,7 +50,8 @@ h1, a, p {
 }
 
 .title-container h1 {
-  font-size: 4em;
+  text-wrap: nowrap;
+  font-size: clamp(2.25rem, 6vw, 4rem);
   margin: 0;
 }
 
@@ -127,8 +128,6 @@ h1, a, p {
   transform: translateX(-56px);
 }
 
-
-
 .title-container p {
   font-size: 1.5em;
   margin: 20px 0 0;
@@ -147,6 +146,7 @@ h1, a, p {
 .carousel-section {
   display: flex;
   gap: 2rem;
+  height: 100%;
 }
 
 .active-container {
@@ -156,9 +156,11 @@ h1, a, p {
 
 .active-container > img {
   width: 100%;
+  height: 100%;
 }
 
 .images-container {
+  height: 100%;
   flex: 1;
   display: flex;
   flex-direction: column;
@@ -166,9 +168,13 @@ h1, a, p {
   gap: 5%;
 }
 
-.image-container img {
+.image-container {
+  flex: 1;
+}
+
+.side-image {
   width: 100%;
-  height: 80%;
+  height: 100%;
   object-fit: cover;
   cursor: pointer;
 }
@@ -239,7 +245,8 @@ h1, a, p {
 }
 
 .activity-name {
-  font-size: 2rem;
+  text-align: center;
+  font-size: clamp(1rem, 3vw, 2.25rem);
 }
 
 .activity-container:hover .activity-image {
@@ -278,10 +285,15 @@ h1, a, p {
   .images-section {
     padding-inline: 5%;
   }
+  .side-image {
+    flex: 1;
+  }
   .carousel-section {
+    gap: 1rem;
     flex-direction: column;
   }
   .images-container {
+    gap: 1rem;
     flex-direction: row;
   }
 }
