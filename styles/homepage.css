@@ -206,6 +206,7 @@ section {
 .diversity-top,
 .diversity-bottom {
   display: flex;
+  text-align: justify;
   align-items: flex-start;
   gap: 2rem;
 }
@@ -306,7 +307,6 @@ section {
 
 .part-of-section {
   margin-top: 24px;
-
 }
 
 .title-text3 {
@@ -332,12 +332,10 @@ section {
 
 .part-of-container {
   margin-top: 24px;
-}
-
-.part-of-container img {
-  width: 100%;
+  background-image: url('../assets/homepage/proudToBePart/markus-spiske-WUehAgqO5hE-unsplash.jpg');
+  background-size: cover;
   height: 480px;
-  image-rendering: auto;
+  filter: brightness(60%);
 }
 
 .footer {
