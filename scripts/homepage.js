@@ -1,11 +1,11 @@
 function castParallax() {
     window.addEventListener('scroll', () => {
-        let top = window.scrollY * 0.3
+        let top = window.scrollY
         let speed, yPos
         let layers = document.querySelectorAll('.parallax-layer')
         layers.forEach(layer => {
             speed = layer.getAttribute('data-speed')
-            yPos = -(top * speed / 100)
+            yPos = (top * speed / 100)
             layer.setAttribute('style', `transform: translate3d(0px, ${yPos}px, 0px)`)
         })
     })
