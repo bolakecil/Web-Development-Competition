@@ -330,12 +330,39 @@ section {
   background-color: white;
 }
 
-.part-of-container {
-  margin-top: 24px;
+.background {
   background-image: url('../assets/homepage/proudToBePart/markus-spiske-WUehAgqO5hE-unsplash.jpg');
   background-size: cover;
-  height: 480px;
   filter: brightness(60%);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1; /* Ensure it's below the content */
+}
+
+.part-of-container {
+  margin-top: 24px;
+  height: 480px;
+  position: relative; /* Add this line */
+  filter: brightness(50%);
+  overflow: hidden;
+}
+
+.part-of-img{
+  padding-inline: 10%;
+  padding-top: 13%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  z-index: 2;
+}
+
+.part-of-img img{
+  width: 35%;
+  filter: brightness(200%);
 }
 
 .footer {
