@@ -74,10 +74,14 @@ function insertPlaces() {
 
     places.forEach((place, index) => {
         if (index % 2 == 0) {
-            leftContainer.innerHTML += `<img src="${place.image}" class="place-img" id="${place.id}" style="animation-delay: calc(${(index / 2) + 1} * ${baseDelay}ms)">`
+            leftContainer.innerHTML += `<div class="card">
+            <img src="${place.image}" class="place-img" id="${
+                place.id
+              }" style="animation-delay: calc(${index / 2 + 1} * ${baseDelay}ms)">
+          </div>`
         }
         else {
-            rightContainer.innerHTML += `<img src="${place.image}" class="place-img" id="${place.id}" style="animation-delay: calc(${(index / 2) + 1} * ${baseDelay}ms)">`
+            rightContainer.innerHTML += `<div class="card"> <img src="${place.image}" class="place-img" id="${place.id}" style="animation-delay: calc(${(index / 2) + 1} * ${baseDelay}ms)"</div>>`
         }
     })
     document.querySelectorAll('.place-img').forEach(img => {
