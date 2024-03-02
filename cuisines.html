@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Local Cuisines</title>
@@ -16,19 +16,130 @@
       href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap"
       rel="stylesheet"
     />
-</head>
-<body>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
     <nav class="navbar">
-        <a href="homepage.html" class="logo">Logo</a>
-        <input class="menu-btn" type="checkbox" id="menu-btn" />
-        <label class="menu-icon" for="menu-btn">
-          <span class="navicon"></span>
-        </label>
-        <ul class="menu">
-          <li><a href="places.html">Places to go</a></li>
-          <li><a href="#">Local Cuisines</a></li>
-          <li><a href="#careers">History</a></li>
-        </ul>
-      </nav>
-</body>
+      <a href="homepage.html" class="logo">Logo</a>
+      <input class="menu-btn" type="checkbox" id="menu-btn" />
+      <label class="menu-icon" for="menu-btn">
+        <span class="navicon"></span>
+      </label>
+      <ul class="menu">
+        <li><a href="places.html">Places to go</a></li>
+        <li><a href="#">Local Cuisines</a></li>
+        <li><a href="#careers">History</a></li>
+      </ul>
+    </nav>
+
+    <div class="slider">
+      <div class="list">
+        <div class="item active">
+          <img
+            src="assets/cuisines/premium_photo-1663852297267-827c73e7529e.avif"
+            alt=""
+          />
+          <div class="content">
+            <h2>Slider 01</h2>
+            <p>TFFFADFDA</p>
+          </div>
+        </div>
+
+        <div class="item">
+          <img
+            src="assets/cuisines/premium_photo-1663852297267-827c73e7529e.avif"
+            alt=""
+          />
+          <div class="content">
+            <h2>Slider 02</h2>
+            <p>TFFFADFDA</p>
+          </div>
+        </div>
+
+        <div class="item">
+          <img
+            src="assets/cuisines/premium_photo-1663852297267-827c73e7529e.avif"
+            alt=""
+          />
+          <div class="content">
+            <h2>Slider 03</h2>
+            <p>TFFFADFDA</p>
+          </div>
+        </div>
+
+        <div class="item">
+          <img
+            src="assets/cuisines/premium_photo-1663852297267-827c73e7529e.avif"
+            alt=""
+          />
+          <div class="content">
+            <h2>Slider 04</h2>
+            <p>TFFFADFDA</p>
+          </div>
+        </div>
+
+        <div class="item">
+          <img
+            src="assets/cuisines/premium_photo-1663852297267-827c73e7529e.avif"
+            alt=""
+          />
+          <div class="content">
+            <h2>Slider 05</h2>
+            <p>TFFFADFDA</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="arrows">
+        <button id="prev"><</button>
+        <button id="next">></button>
+      </div>
+
+      <div class="thumbnail">
+        <div class="item active">
+          <img
+            src="assets/cuisines/premium_photo-1663852297267-827c73e7529e.avif"
+            alt=""
+          />
+          <div class="content">Name Slider</div>
+        </div>
+        <div class="item">
+          <img
+            src="assets/cuisines/premium_photo-1663852297267-827c73e7529e.avif"
+            alt=""
+          />
+          <div class="content">Name Slider</div>
+        </div>
+        <div class="item">
+          <img
+            src="assets/cuisines/premium_photo-1663852297267-827c73e7529e.avif"
+            alt=""
+          />
+          <div class="content">Name Slider</div>
+        </div>
+        <div class="item">
+          <img
+            src="assets/cuisines/premium_photo-1663852297267-827c73e7529e.avif"
+            alt=""
+          />
+          <div class="content">Name Slider</div>
+        </div>
+        <div class="item">
+          <img
+            src="assets/cuisines/premium_photo-1663852297267-827c73e7529e.avif"
+            alt=""
+          />
+          <div class="content">Name Slider</div>
+        </div>
+      </div>
+    </div>
+
+    <script src="scripts/cuisines.js"></script>
+  </body>
 </html>
