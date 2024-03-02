@@ -475,4 +475,12 @@ section {
   .diversity-img-2 {
     order: 2;
   }
+
+  .part-of-img{
+    flex-direction: column;
+  }
+
+  .part-of-img img{
+    width: 55%;
+  }
 }
