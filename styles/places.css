@@ -12,7 +12,7 @@ body {
   font-family: Koulen, sans-serif;
 }
 
-h1, a, p {
+h1, a, p, li, ol {
   color: white;
   margin: 0;
   text-decoration: none;
@@ -93,12 +93,28 @@ h1, a, p {
 }
 
 .read-more {
+  position: relative;
   color: aquamarine;
   font-size: clamp(1.125rem, 5vw, 1.5rem);
 }
 
+.read-more:after {
+  content: '';
+  position: absolute;
+  background-color: aquamarine;
+  height: 2px;
+  width: 0;
+  left: 0;
+  bottom: -4px;
+  transition: all 0.3s ease;
+}
+
+.read-more:hover:after {
+  width: 100%;
+} 
+
 .place-name {
-  font-size: clamp(1.5rem, 5vw, 2rem);
+  font-size: clamp(1.5rem, 4vw, 2.3rem);
 }
 
 .title-container {
@@ -331,6 +347,10 @@ section > h1 {
   outline: none;
   transition: background-color 0.2s;
   position: relative;
+}
+
+.list-answer {
+  font-size: 1.2rem;
 }
 
 .icon{

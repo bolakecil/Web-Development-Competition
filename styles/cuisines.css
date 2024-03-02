@@ -3,7 +3,6 @@ body {
   padding: 0;
   box-sizing: border-box;
   overflow-x: hidden;
-  height: 2000px;
   background-color: var(--primary);
   font-family: Koulen, sans-serif;
 }
@@ -35,26 +34,28 @@ body {
   position: absolute;
   left: 0;
   bottom: 0;
-  background-image: linear-gradient(to top, #000 40%, transparent);
+  background-image: linear-gradient(to top, #000 5%, transparent);
 }
 
 .slider .list .item .content {
   position: absolute;
   left: 10%;
   top: 15%;
-  width: 500px;
+  width: clamp(500px, 65%, 800px); 
   max-width: 80%;
   z-index: 1;
 }
 
 .slider .list .item .content p {
-    margin-top: -20px;
+  margin-top: -20px;
+  font-size: clamp(0.75rem, 3vw, 1.125rem);
   color: aliceblue;
 }
 
 .slider .list .item .content h2 {
-  font-size: 100px;
-  margin: 0;
+  font-size: clamp(2rem, 5vw, 5rem);
+  text-wrap: nowrap;
+  margin: 1rem 0 0.4rem 0;
   color: white;
 }
 
@@ -74,17 +75,17 @@ body {
 .slider .list .item.active h2,
 .slider .list .item.active p {
   transform: translateY(30px);
-  filter: blur(20px);
+  filter: blur(10px);
   opacity: 0;
-  animation: showContent 0.5s 0.7s ease-in-out 1 forwards;
+  animation: showContent 0.4s 0.6s ease-in-out 1 forwards;
 }
 
 .slider .list .item.active h2 {
-  animation-delay: 1s;
+  animation-delay: 0.6s;
 }
 
 .slider .list .item.active p {
-  animation-duration: 1.3s;
+  animation-duration: 0.8s;
 }
 
 .arrows {
@@ -104,6 +105,7 @@ body {
   font-size: x-large;
   color: #eee;
   transition: 0.5s;
+  cursor: pointer;
 }
 
 .arrows button:hover {
@@ -116,9 +118,9 @@ body {
   bottom: 0;
   z-index: 11;
   display: flex;
-  gap: 10px;
+  gap: 1rem;
   width: 100%;
-  height: 220px;
+  height: 14rem;
   padding: 0 50px;
   box-sizing: border-box;
   overflow: auto;
@@ -135,6 +137,11 @@ body {
   filter: brightness(0.5);
   transition: 0.5s;
   flex-shrink: 0;
+  cursor: pointer;
+}
+
+.thumbnail .item:hover {
+  filter: brightness(0.75);
 }
 
 .thumbnail .item img {
@@ -145,14 +152,26 @@ body {
 }
 
 .thumbnail .item.active {
-  filter: brightness(1.5);
+  filter: brightness(1);
 }
 
 .thumbnail .item .content {
   position: absolute;
-  inset: auto 10px 10px 10px;
+  inset: auto 1rem 1rem 1rem
 } 
 
+::-webkit-scrollbar {
+  width: 0.5rem;
+}
+
+::-webkit-scrollbar-track {
+  background: black;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 0.5rem;
+}
 
 @media screen and (max-width: 768px) {
   .thumbnail {

@@ -58,6 +58,8 @@ const castObservers = () => {
                     $('.navbar').css({
                         'opacity': '1',
                         'margin-top': '0px',
+                        'background-color': 'black',
+                        'box-shadow': '1px 1px 4px 0 rgba(0, 0, 0, 0.1);'
                     })
                     $('.map-section').css({
                         'opacity': '1',

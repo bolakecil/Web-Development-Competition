@@ -1,11 +1,11 @@
 .navbar {
-  box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.1);
   width: 100%;
   z-index: 100;
   top: 0;
   position: fixed;
-  transition: opacity 0.5s ease, margin-top 0.5s ease; 
-  background-color: black;
+  transition: opacity 0.5s ease, margin-top 0.5s ease, background-color 0.5s ease, box-shadow 0.5s ease; 
+  /* background-color: black;
+  box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.1); */
 }
   
 .navbar ul {
@@ -124,6 +124,13 @@
   
   /* 48em = 768px */
   
+@media (max-width: 48em) {
+  .navbar {
+    background-color: black;
+    box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.1);
+  }
+}
+
 @media (min-width: 48em) {
   .navbar li {
     float: left;

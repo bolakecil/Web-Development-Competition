@@ -19,6 +19,24 @@ const resortObserver = new IntersectionObserver((entries) => {
   })
 })
 
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach((entry) => {
+    if (entry.isIntersecting) {
+      $('.navbar').css({
+        'background-color': 'transparent',
+        'box-shadow': 'none'
+      })
+    } else {
+      $('.navbar').css({
+        'background-color': 'black',
+        'box-shadow': '1px 1px 4px 0 rgba(0, 0, 0, 0.1);'
+      })
+    }
+  })
+})
+
+observer.observe(document.querySelector(".video-container"))
+
 document.querySelectorAll(".accordion-button").forEach((button) => {
   button.addEventListener("click", () => {
     const accordionContent = button.nextElementSibling
@@ -74,7 +92,7 @@ function insertPlaces() {
     if (index % 2 == 0) {
       leftContainer.innerHTML += `
       <div class="image-container">
-            <img src="${place.image}" class="place-img" id="${place.id}">
+            <img src="${place.image}" class="place-img" style="animation-delay: ${(index + 1) * 100}ms" id="${place.id}">
             <div class="place-overlay" id="${place.id}">
               <p class="place-name">${place.name}</p>
               <p class="read-more">Read More</p>
@@ -83,7 +101,7 @@ function insertPlaces() {
     } else {
       rightContainer.innerHTML += `
       <div class="image-container">
-            <img src="${place.image}" class="place-img" id="${place.id}">
+            <img src="${place.image}" class="place-img" style="animation-delay: ${(index + 1) * 100}ms" id="${place.id}">
             <div class="place-overlay" id="${place.id}">
               <p class="place-name">${place.name}</p>
               <p class="read-more">Read More</p>

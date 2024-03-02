@@ -1,5 +1,23 @@
 place = {}
 
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach((entry) => {
+    if (entry.isIntersecting) {
+      $('.navbar').css({
+        'background-color': 'transparent',
+        'box-shadow': 'none'
+      })
+    } else {
+      $('.navbar').css({
+        'background-color': 'black',
+        'box-shadow': '1px 1px 4px 0 rgba(0, 0, 0, 0.1);'
+      })
+    }
+  })
+})
+
+observer.observe(document.querySelector(".video-container"))
+
 function carousel() {
     console.log(place)
     const displayedImage = document.querySelector(".displayed-image")
