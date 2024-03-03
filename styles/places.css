@@ -370,8 +370,7 @@ section > h1 {
 }
 
 .footer {
-  margin-top: 3rem;
-  padding-inline: 4%;
+  padding: 1rem 4% 1rem 4%;
   color: azure;
   justify-content: center;
   align-items: center;

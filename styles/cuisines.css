@@ -178,7 +178,7 @@ body {
 }
 
 .footer {
-  padding-inline: 4%;
+  padding: 1rem 4% 1rem 4%;
   color: azure;
   justify-content: center;
   align-items: center;
@@ -198,6 +198,10 @@ body {
 .closure {
   display: flex;
   justify-content: center;
+}
+
+.closure p{
+  margin: 0;
 }
 
 @media screen and (max-width: 768px) {

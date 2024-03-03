@@ -286,7 +286,7 @@ h1, a, p {
 }
 
 .footer {
-  padding-inline: 4%;
+  padding: 1rem 4% 1rem 4%;
   color: azure;
   justify-content: center;
   align-items: center;
