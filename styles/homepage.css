@@ -8,7 +8,8 @@ body {
   box-sizing: border-box;
   overflow-x: hidden;
   height: 2000px;
-  background-color: var(--primary);
+  background: linear-gradient(109.6deg, rgba(0, 0, 0, 0.93) 11.2%, rgb(63, 61, 61) 78.9%);
+  background-attachment: fixed;
   font-family: Koulen, sans-serif;
 }
 
@@ -44,32 +45,32 @@ span {
 
 #parallax-0 {
   background-size: cover;
-  background-image: url('/assets/homepage/parallax/layer_0.png');
+  background-image: url("/assets/homepage/parallax/layer_0.png");
 }
 
 #parallax-1 {
   background-size: cover;
-  background-image: url('/assets/homepage/parallax/layer_1.png');
+  background-image: url("/assets/homepage/parallax/layer_1.png");
 }
 
 #parallax-2 {
   background-size: cover;
-  background-image: url('/assets/homepage/parallax/layer_2.png');
+  background-image: url("/assets/homepage/parallax/layer_2.png");
 }
 
 #parallax-3 {
   background-size: cover;
-  background-image: url('/assets/homepage/parallax/layer_3.png');
+  background-image: url("/assets/homepage/parallax/layer_3.png");
 }
 #parallax-4 {
   background-size: 40% 60%;
   background-position: bottom left;
-  background-image: url('/assets/homepage/parallax/layer_4.png');
+  background-image: url("/assets/homepage/parallax/layer_4.png");
 }
 
 #parallax-5 {
   background-size: cover;
-  background-image: url('/assets/homepage/parallax/layer_5.png');
+  background-image: url("/assets/homepage/parallax/layer_5.png");
 }
 
 /* Onload animation */
@@ -191,6 +192,14 @@ section {
 
 .diversity-section {
   padding-inline: 6%;
+}
+
+.diversity-img img {
+  border-radius: 8px;
+}
+
+.diversity-img-2 img {
+  border-radius: 8px;
 }
 
 .title-text {
@@ -361,7 +370,7 @@ section {
 }
 
 .background {
-  background-image: url('../assets/homepage/proudToBePart/markus-spiske-WUehAgqO5hE-unsplash.jpg');
+  background-image: url("../assets/homepage/proudToBePart/markus-spiske-WUehAgqO5hE-unsplash.jpg");
   background-size: cover;
   filter: brightness(60%);
   position: absolute;
@@ -380,7 +389,7 @@ section {
   overflow: hidden;
 }
 
-.part-of-img{
+.part-of-img {
   padding-inline: 10%;
   padding-top: 13%;
   display: flex;
@@ -390,7 +399,7 @@ section {
   z-index: 2;
 }
 
-.part-of-img img{
+.part-of-img img {
   width: 35%;
   filter: brightness(200%);
 }
@@ -418,7 +427,7 @@ section {
   justify-content: center;
 }
 
-.static-background{
+.static-background {
   display: none;
 }
 
@@ -480,11 +489,11 @@ section {
     order: 2;
   }
 
-  .part-of-img{
+  .part-of-img {
     flex-direction: column;
   }
 
-  .part-of-img img{
+  .part-of-img img {
     width: 55%;
   }
 
@@ -492,7 +501,7 @@ section {
     display: none;
   }
 
-  .static-background{
+  .static-background {
     display: block;
     width: 100vw;
     position: relative;
@@ -500,7 +509,7 @@ section {
     margin: auto;
   }
 
-  .text{
+  .text {
     position: absolute;
     top: 33%;
     width: 100%;
@@ -511,19 +520,19 @@ section {
     text-align: center;
   }
 
-  .text p{
+  .text p {
     font-size: 3rem;
   }
 
-  .title{
-    color:#805b5b;
+  .title {
+    color: #805b5b;
   }
 
-  .subtitle{
+  .subtitle {
     color: black;
   }
 
-  .static-background img{
+  .static-background img {
     width: 100%;
     height: auto;
     display: block;

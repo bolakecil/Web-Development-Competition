@@ -7,9 +7,11 @@ body {
   padding: 0;
   box-sizing: border-box;
   overflow-x: hidden;
-  background-color: var(--primary);
+  background: linear-gradient(109.6deg, rgba(0, 0, 0, 0.93) 11.2%, rgb(63, 61, 61) 78.9%);
+  background-attachment: fixed;
   font-family: Koulen, sans-serif;
 }
+
 
 .slider {
   height: 100vh;
