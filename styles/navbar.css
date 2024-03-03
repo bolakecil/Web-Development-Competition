@@ -44,6 +44,10 @@
   color: red;
 }
   
+.logo img {
+  width: 120%;
+  height: 120%;
+}
   /* menu */
   
   .navbar .menu {
