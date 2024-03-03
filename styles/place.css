@@ -285,6 +285,29 @@ h1, a, p {
   border-radius: 0.5rem;
 }
 
+.footer {
+  padding-inline: 4%;
+  color: azure;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  margin-top: 12px;
+  display: flex;
+  justify-content: center;
+  gap: 2%;
+}
+
+.logo img {
+  width: 32px;
+}
+
+.closure {
+  display: flex;
+  justify-content: center;
+}
+
 @media (max-width: 768px) {
   .images-section {
     padding-inline: 5%;
