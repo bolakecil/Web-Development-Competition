@@ -418,6 +418,10 @@ section {
   justify-content: center;
 }
 
+.static-background{
+  display: none;
+}
+
 @media (max-width: 768px) {
   .about-section {
     flex-direction: column;
@@ -482,5 +486,48 @@ section {
 
   .part-of-img img{
     width: 55%;
+  }
+
+  .parallax-container {
+    display: none;
+  }
+
+  .static-background{
+    display: block;
+    width: 100vw;
+    position: relative;
+    text-align: center;
+    margin: auto;
+  }
+
+  .text{
+    position: absolute; /* Position the text absolutely within the .static-background */
+    top: 33%; /* Position the top of the element at the middle of the container */
+    /* left: 50%; Position the left of the element at the middle of the container */
+    
+    width: 100%; /* Ensure the .text container spans the full width of its parent */
+    display: flex; /* Use flexbox to center the content */
+    flex-direction: column; /* Stack children vertically */
+    justify-content: center; /* Center children vertically */
+    align-items: center;
+    text-align: center;
+  }
+
+  .text p{
+    font-size: 3rem;
+  }
+
+  .title{
+    color:#805b5b;
+  }
+
+  .subtitle{
+    color: black;
+  }
+
+  .static-background img{
+    width: 100%;
+    height: auto;
+    display: block;
   }
 }
