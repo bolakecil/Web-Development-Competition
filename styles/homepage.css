@@ -431,6 +431,10 @@ section {
   display: none;
 }
 
+.logo1 .logo2 .logo3 {
+  position: relative;
+}
+
 @media (max-width: 768px) {
   .about-section {
     flex-direction: column;
