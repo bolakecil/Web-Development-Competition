@@ -6,9 +6,10 @@
     <title>Place</title>
     <link rel="stylesheet" href="styles/navbar.css" />
     <link rel="stylesheet" href="styles/place.css" />
+    <link rel="stylesheet" href="styles/footer.css">
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link rel="icon" href="assets/icon.png">
+    <link rel="icon" href="assets/icon.png" />
     <link
       href="https://fonts.googleapis.com/css2?family=Koulen&display=swap"
       rel="stylesheet"
@@ -20,15 +21,16 @@
   </head>
   <body>
     <nav class="navbar">
-      <a href="homepage.html" class="logo">Logo</a>
+      <a href="homepage.html" class="logo" style="margin-top: 13px;"
+        ><img src="assets/icon.png" alt=""
+      /></a>
       <input class="menu-btn" type="checkbox" id="menu-btn" />
       <label class="menu-icon" for="menu-btn">
         <span class="navicon"></span>
       </label>
       <ul class="menu">
-        <li><a href="#">Places to go</a></li>
+        <li><a href="places.html">Places to go</a></li>
         <li><a href="cuisines.html">Local Cuisines</a></li>
-        <li><a href="#careers">History</a></li>
       </ul>
     </nav>
     <div class="video-container">
@@ -163,11 +165,48 @@
       ></iframe>
     </section>
 
-  <script src="scripts/place.js"></script>
-  <script
-    crossorigin="anonymous"
-    integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM="
-    src="https://code.jquery.com/jquery-3.7.0.js"
-  ></script>
+      <footer class="container">
+        <div class="footer-left">
+          <img src="assets/icon.png" alt="">
+          <span>NTT</span>
+        </div>
+        <div class="footer-right">
+          <div class="footer-right1">
+            <span>Service</span>
+            <a href="AboutUsPage.html">About Us</a>
+            <a href="ContactUs.html">Contact Us</a>
+            <a href="#">Features</a>
+          </div>
+          <div class="footer-right1">
+            <span>Resources</span>
+            <a href="#">Apps</a>
+            <a href="#">Developer</a>
+            <a href="PriceListPage.html">Pricing</a>
+          </div>
+          <div class="footer-right1">
+            <span>Social Media</span>
+            <div class="logo-f">
+              <div class="logo-fb"><img src="assets/homepage/Footer/github.png" alt=""></div>
+              <div class="logo-fb"><img src="assets/homepage/Footer/instagram (5).png" alt=""></div>
+              <div class="logo-fb"><img src="assets/homepage/Footer/linkedin.png" alt=""></div>
+            </div>
+            <div class="form1">
+              <label for="">Newsletter Subs</label>
+              <div class="send"><input type="email">
+                <button>
+                  <img src="assets/homepage/Footer/send (6).png" alt="">
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+   
+    <script src="scripts/place.js"></script>
+    <script
+      crossorigin="anonymous"
+      integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM="
+      src="https://code.jquery.com/jquery-3.7.0.js"
+    ></script>
   </body>
 </html>

@@ -1,18 +1,25 @@
 :root {
-   --primary: #262826;
+  --primary: #262826;
 }
-  
+
 body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   overflow-x: hidden;
   height: 2000px;
-  background-color: var(--primary);
+  background: linear-gradient(
+    109.6deg,
+    rgba(0, 0, 0, 0.93) 11.2%,
+    rgb(63, 61, 61) 78.9%
+  );
+  background-attachment: fixed;
   font-family: Koulen, sans-serif;
 }
 
-h1, a, p {
+h1,
+a,
+p {
   color: white;
   margin: 0;
   text-decoration: none;
@@ -171,7 +178,7 @@ h1, a, p {
   flex: 1;
 }
 
-.displayed-image{
+.displayed-image {
   border-radius: 8px;
 }
 
@@ -230,7 +237,6 @@ h1, a, p {
   height: 100%;
   object-fit: cover;
   filter: blur(3px);
-  -webkit-filter: blur(3px);
   transition: all 0.5s ease;
 }
 
@@ -241,7 +247,7 @@ h1, a, p {
   width: 100%;
   height: 100%;
   background: rgba(0, 0, 0, 0.4);
-  transition: transform 0.5s ease; 
+  transition: transform 0.5s ease;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -299,5 +305,20 @@ h1, a, p {
   .images-container {
     gap: 1rem;
     flex-direction: row;
+  }
+  .activity-container img {
+    filter: blur(0);
+  }
+
+  .container {
+    flex-wrap: wrap;
+  }
+
+  .footer-left {
+    flex-wrap: wrap;
+  }
+  .footer-right {
+    flex-wrap: wrap;
+    gap: 12px;
   }
 }

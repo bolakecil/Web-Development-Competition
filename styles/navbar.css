@@ -3,31 +3,32 @@
   z-index: 100;
   top: 0;
   position: fixed;
-  transition: opacity 0.5s ease, margin-top 0.5s ease, background-color 0.5s ease, box-shadow 0.5s ease; 
+  transition: opacity 0.5s ease, margin-top 0.5s ease,
+    background-color 0.5s ease, box-shadow 0.5s ease;
   /* background-color: black;
   box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.1); */
 }
-  
+
 .navbar ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    overflow: hidden;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  overflow: hidden;
 }
-  
+
 .navbar li a {
-    display: block;
-    font-size: clamp(1rem, 2.5vw, 1.5rem);
-    padding: 1% 2%;
-    text-decoration: none;
-    background: linear-gradient(to right, red 50%, white 50%);
-    background-size: 200% 100%;
-    background-position: 100% 0;
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
-    transition: background 0.7s ease;
+  display: block;
+  font-size: clamp(1rem, 2.5vw, 1.5rem);
+  padding: 1% 2%;
+  text-decoration: none;
+  background: linear-gradient(to right, red 50%, white 50%);
+  background-size: 200% 100%;
+  background-position: 100% 0;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  transition: background 0.7s ease;
 }
-  
+
 .navbar li a:hover,
 .navbar .menu-btn:hover {
   background-position: 0 0;
@@ -37,97 +38,105 @@
 .navbar .logo {
   display: block;
   float: left;
-  font-size: 2em;
-  margin: 1% 2.5%;
+  font-size: 1em;
   margin-left: 6%;
   text-decoration: none;
   color: red;
+  padding-top:7px;
 }
-  
+
 .logo img {
-  width: 120%;
-  height: 120%;
+  height: 2.5em;
 }
-  /* menu */
-  
-  .navbar .menu {
-    clear: both;
-    max-height: 0;
-    transition: max-height 0.4s ease-out;
-    margin-left: 4%;
-  }
-  
-  /* menu icon */
-  
-  .navbar .menu-icon {
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    float: right;
-    margin-top: 4px;
-    padding: 28px 20px;
-    position: relative;
-    user-select: none;
-    margin-right: 3%;
-  }
-  
-  .navbar .menu-icon .navicon {
-    background: white;
-    display: block;
-    height: 2px;
-    position: relative;
-    width: 30px;
-  }
-  
-  .navbar .menu-icon .navicon:before,
-  .navbar .menu-icon .navicon:after {
-    background: white;
-    content: "";
-    display: block;
-    height: 100%;
-    position: absolute;
-    transition: all 0.2s ease-out;
-    width: 100%;
-  }
-  
-  .navbar .menu-icon .navicon:before {
-    top: 10px;
-  }
-  
-  .navbar .menu-icon .navicon:after {
-    top: -10px;
-  }
-  
-  /* menu btn */
-  
-  .navbar .menu-btn {
-    display: none;
-  }
-  
-  .navbar .menu-btn:checked ~ .menu {
-    max-height: 240px;
-  }
-  
-  .navbar .menu-btn:checked ~ .menu-icon .navicon {
-    background: transparent;
-  }
-  
-  .navbar .menu-btn:checked ~ .menu-icon .navicon:before {
-    transform: rotate(-45deg);
-  }
-  
-  .navbar .menu-btn:checked ~ .menu-icon .navicon:after {
-    transform: rotate(45deg);
-  }
-  
+
+
+.logo {
+  margin-top: 12px;
+  display: flex;
+  justify-content: center;
+  gap: 2%;
+}
+
+/* menu */
+
+.navbar .menu {
+  clear: both;
+  max-height: 0;
+  transition: max-height 0.4s ease-out;
+  margin-left: 4%;
+}
+
+/* menu icon */
+
+.navbar .menu-icon {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  float: right;
+  margin-top: 4px;
+  padding: 28px 20px;
+  position: relative;
+  user-select: none;
+  margin-right: 3%;
+}
+
+.navbar .menu-icon .navicon {
+  background: white;
+  display: block;
+  height: 2px;
+  position: relative;
+  width: 30px;
+}
+
+.navbar .menu-icon .navicon:before,
+.navbar .menu-icon .navicon:after {
+  background: white;
+  content: "";
+  display: block;
+  height: 100%;
+  position: absolute;
+  transition: all 0.2s ease-out;
+  width: 100%;
+}
+
+.navbar .menu-icon .navicon:before {
+  top: 10px;
+}
+
+.navbar .menu-icon .navicon:after {
+  top: -10px;
+}
+
+/* menu btn */
+
+.navbar .menu-btn {
+  display: none;
+}
+
+.navbar .menu-btn:checked ~ .menu {
+  max-height: 240px;
+}
+
+.navbar .menu-btn:checked ~ .menu-icon .navicon {
+  background: transparent;
+}
+
+.navbar .menu-btn:checked ~ .menu-icon .navicon:before {
+  transform: rotate(-45deg);
+}
+
+.navbar .menu-btn:checked ~ .menu-icon .navicon:after {
+  transform: rotate(45deg);
+}
+
 .navbar .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:before,
 .navbar .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
   top: 0;
 }
-  
-  /* 48em = 768px */
-  
+
+/* 48em = 768px */
+
 @media (max-width: 48em) {
   .navbar {
     background-color: black;
@@ -152,8 +161,7 @@
     display: none;
   }
 
-  .navbar .logo{
+  .navbar .logo {
     margin-left: 6%;
   }
 }
-  
