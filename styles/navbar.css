@@ -49,6 +49,14 @@
   height: 2.5em;
 }
 
+
+.logo {
+  margin-top: 12px;
+  display: flex;
+  justify-content: center;
+  gap: 2%;
+}
+
 /* menu */
 
 .navbar .menu {

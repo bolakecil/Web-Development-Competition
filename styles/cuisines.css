@@ -179,32 +179,145 @@ body {
   border-radius: 0.5rem;
 }
 
-.footer {
-  padding: 1rem 4% 1rem 4%;
-  color: azure;
+.container {
+  margin: 0px 12.5%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 60px 0;
+}
+
+.footer-left {
+  display: flex;
   justify-content: center;
+  flex-direction: column;
+  width: 120px;
+  color: #fefce8;
+}
+
+.footer-left img {
+  width: 52px;
+}
+
+.footer-left span {
+  font-size: 2.375rem;
+  font-weight: 600;
+}
+
+.footer-right {
+  display: flex;
+  justify-content: space-between;
+  width: 75%;
+}
+
+.footer-right1 {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  color: #bdbdbd;
+}
+
+.footer-right1 span {
+  font-weight: 500;
+  font-size: 1.5rem;
+  color: #fefce8;
+  width: 100%;
+}
+
+.footer-right1 a {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1.125rem;
+  color: #bdbdbd;
+}
+
+.footer-right1 a:hover {
+  color: #efefef;
+}
+
+.email {
+  display: flex;
+  gap: 12px;
   align-items: center;
 }
 
-.logo {
-  margin-top: 12px;
+.phone {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.footer-right1 img {
+  width: 20px;
+  height: 20px;
+}
+
+.logo-f img {
+  width: 20px;
+  height: 20px;
+  padding: 3px;
+}
+
+.logo-fb:hover {
+  background-color: white;
+  cursor: pointer;
+}
+
+.logo-f {
+  display: flex;
+  gap: 14px;
+}
+
+.logo-fb {
   display: flex;
   justify-content: center;
-  gap: 2%;
+  align-items: center;
+  border: 1.5px solid #bdbdbd;
+  border-radius: 100%;
+  width: 28px;
+  height: 28px;
 }
 
-.logo img {
-  width: 32px;
-}
-
-.closure {
+.form1 {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
 }
 
-.closure p{
-  margin: 0;
+.form1 input {
+  width: 156px;
+  height: 28px;
+  background-color: #dcdcdc;
+  color: black;
+  border: none;
+  border-radius: 4px;
 }
+
+.form1 label {
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.send {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.send button {
+  display: flex;
+  background-color: #dcdcdc;
+  border: none;
+  padding: 4px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.form1 input:focus {
+  outline: none;
+}
+
+
 
 @media screen and (max-width: 768px) {
   .thumbnail {
@@ -217,5 +330,17 @@ body {
 
   .arrows {
     display: none;
+  }
+
+  .container {
+    flex-wrap: wrap;
+  }
+
+  .footer-left {
+    flex-wrap: wrap;
+  }
+  .footer-right {
+    flex-wrap: wrap;
+    gap: 12px;
   }
 }
